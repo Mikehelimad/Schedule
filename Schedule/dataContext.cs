@@ -21,6 +21,7 @@ namespace Schedule
                     var md = new MongoClient(con);
                     _context = md.GetDatabase("rehearse");
 
+
                 }
                 return _context;
                 //var collection = db.GetCollection<schedule>("rehearsSched");
